@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <h1>Learn Container Here</h1>
+
+
+                   <!-- [&>*]:p-4 -->
+
+    <div>
+        <ul class="bg-black text-white flex [&>*]:p-4">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+            <li>Message</li>
+        </ul>
+    </div>
+
+
+
+            <!-- mx- auto used here in container -->
+    <div class="bg-red-500 container text-white mx-auto">
+        here is Container if uses then Only space show right side 
+    </div>
+
+    <div class="bg-blue-600 container">
+        Here is set from tailwind.config
+    </div>
+</body>
+
+</html>
